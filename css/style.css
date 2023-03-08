@@ -1,0 +1,57 @@
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 100%;
+    height: 120px;
+}
+
+#menu{
+    background:#fff !important;
+}
+
+.nav-link{
+    color:#8495BF !important;
+    font-size:1.2rem;
+}
+
+#nosotros{
+    width:100%;
+    margin-top: 50px;
+}
+
+img{
+    padding-top:50px;
+}
+
+.imgplan{
+    width:80%;
+    height:200px;
+    margin-left: 15px;
+
+}
+
+#video, #alianzas,#preguntas{
+    width:100%;
+}
+
+.imgslide{
+    width: 100px;
+}
+
+#preguntas .titulo {
+    width: 100%;
+    text-align: center;
+
+}
+
+/* footer */
+#footer {    
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+
+}
