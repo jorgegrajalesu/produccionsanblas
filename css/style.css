@@ -4,21 +4,29 @@ body{
 
 .logo{
     width: 100%;
-    height: 120px;
+    height: 220px;
+    margin-top: -60px;
 }
 
 #menu{
-    background:#fff !important;
+    background:#89BF25 !important;
 }
 
 .nav-link{
-    color:#8495BF !important;
+    color:#fefefe !important;
     font-size:1.2rem;
+    font-weight: bold;
 }
+.nav-link a:hover{
+    color:#000 !important;
+    text-decoration: underline;
+}
+
 
 #nosotros{
     width:100%;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 img{
@@ -37,7 +45,7 @@ img{
 }
 
 .imgslide{
-    width: 100px;
+    height: 600px;
 }
 
 #preguntas .titulo {
@@ -49,9 +57,19 @@ img{
 /* footer */
 #footer {    
     width: 100%;
-    background-color: #000000;
+    background-color: #89BF25;
     text-align: center;
     color: #ffffff;
     padding: 20px 0;
 
+}
+
+#noticias {
+    background-color: #000;
+}
+
+#noticias .titulo {
+    width: 100%;
+    color: #fff;
+    text-align: center;
 }
